@@ -48,6 +48,7 @@ class SendAttendanceToServer extends Command
             }
             else{
                 $this->info($attendance->type .' failed');
+                // $this->info($response);
             }
         }
     }
